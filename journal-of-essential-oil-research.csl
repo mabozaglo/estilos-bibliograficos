@@ -13,7 +13,7 @@
   </info>
   <macro name="authors">
     <names variable="author">
-      <name name-as-sort-order="" initialize-with="." delimiter=", " delimiter-precedes-last="never" and="text" sort-separator=" "/>
+      <name initialize-with="." delimiter=", " delimiter-precedes-last="never" and="text" sort-separator=" "/>
       <substitute><names variable="editor"/><text variable="title"/></substitute>
     </names>
   </macro>
